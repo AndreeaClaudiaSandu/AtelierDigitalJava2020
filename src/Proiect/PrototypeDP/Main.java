@@ -10,7 +10,7 @@ public class Main {
         Students stud1= (Students) stud.clone();
         List<String> list= stud1.getStud();
         list.add("Andreea");
-
+        list.remove(1);
         System.out.println("Stud List: "+ stud.getStud());
         System.out.println("Stud1 List: "+ stud1.getStud());
     }
